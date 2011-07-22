@@ -1,0 +1,3 @@
+This is the python part of the project which defines the listening agents and the tests sounds.
+
+The agents are started to listen on a tcp port. The openframeworks app will then send messages on the port and the agent responds to these events.

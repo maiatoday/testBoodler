@@ -1,0 +1,18 @@
+Test project which uses a basic TCP client derived from ofxTCPClient to send simple text messages to a listening boodler python script. The boodler script changes the sound it plays depending on the events it receives.
+
+Needs extras ofxThread and ofxNetwork and is base on 0062.
+
+install boodler as per boodler.org
+if you are using ubuntu and pulse remember you also need libpulse-dev.
+
+also you need some standard packages from boodler installed like this
+boodle-mgr install http://boodler.org/lib/org.boodler.old.water.1.0.boop
+
+after you have tested it works go to testBoodler/boodler and run:
+boodler --listen --extern theagents com.example.theagents/Example
+or in my case I use pulse so
+boodler --output pulse --listen --extern theagents com.example.theagents/Example
+
+Then run the opeframeworks project. Press the number keys 1,2,3,0 and hear the sounds change
+
+work in progress at the moment
