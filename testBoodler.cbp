@@ -5,7 +5,7 @@
 		<Option title="testBoodler" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
-		<Option virtualFolders="addons/;src/;boodler/;addons/ofxNetwork/src/;addons/ofxThread/src/;boodler/thesounds/;boodler/theagents/;" />
+		<Option virtualFolders="addons/;src/;boodler/;addons/ofxNetwork/src/;addons/ofxThread/src/;boodler/theagents/;" />
 		<Build>
 			<Target title="Debug">
 				<Option output="bin/$(PROJECT_NAME)_debug" prefix_auto="1" extension_auto="1" />
@@ -130,9 +130,17 @@
 		<Unit filename="../../../addons/ofxThread/src/ofxThread.h">
 			<Option virtualFolder="addons/ofxThread/src" />
 		</Unit>
-		<Unit filename="README" />
 		<Unit filename="boodler/README">
 			<Option virtualFolder="boodler/" />
+		</Unit>
+		<Unit filename="boodler/theagents/Metadata">
+			<Option virtualFolder="boodler/theagents/" />
+		</Unit>
+		<Unit filename="boodler/theagents/Resources">
+			<Option virtualFolder="boodler/theagents/" />
+		</Unit>
+		<Unit filename="boodler/theagents/main.py">
+			<Option virtualFolder="boodler/theagents/" />
 		</Unit>
 		<Unit filename="src/SoundMachine.cpp">
 			<Option virtualFolder="src/" />
