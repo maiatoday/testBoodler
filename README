@@ -16,3 +16,12 @@ boodler --output pulse --listen --extern theagents com.example.theagents/Example
 Then run the opeframeworks project. Press the number keys 1,2,3,0 and hear the sounds change
 
 work in progress at the moment
+
+You can also test the boodler part by typing
+telnet localhost 31863
+
+this will open a connection to the port
+then typing in text such as:
+start
+
+should make a sound
