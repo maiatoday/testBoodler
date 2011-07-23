@@ -1,3 +1,9 @@
 This is the python part of the project which defines the listening agents and the tests sounds.
 
+Install boodler using this link:
+http://boodler.org/wiki/show/Installation%20Information%20For%20Various%20Platforms/
+
 The agents are started to listen on a tcp port. The openframeworks app will then send messages on the port and the agent responds to these events.
+
+To run the agent type
+boodler --output pulse --listen --extern theagents com.example.theagents/Example
